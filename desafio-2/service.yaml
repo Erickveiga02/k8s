@@ -9,7 +9,7 @@ spec:
   ports:
   - port: 80
     protocol: TCP
-    targetPort: 80
-  type: ClusterIP
+    targetPort: 8080
+  type: NodePort
   selector:
     app: nginx
